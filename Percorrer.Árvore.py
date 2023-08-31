@@ -79,13 +79,13 @@ class arvoreBinaria:
 
 
 arvore = arvoreBinaria()
-arvore.inserir_em_nivel()
-arvore.inserir_em_nivel()
-arvore.inserir_em_nivel()
-arvore.inserir_em_nivel()
-arvore.inserir_em_nivel()
-arvore.inserir_em_nivel()
-arvore.inserir_em_nivel()
+arvore.inserir_em_nivel(5)
+arvore.inserir_em_nivel(3)
+arvore.inserir_em_nivel(7)
+arvore.inserir_em_nivel(2)
+arvore.inserir_em_nivel(4)
+arvore.inserir_em_nivel(6)
+arvore.inserir_em_nivel(8)
 
 print('Pre Ordem')
 arvore.mostrar_pre_ordem()
